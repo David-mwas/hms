@@ -18,8 +18,8 @@ app.use(cors());
 app.use(morgan("dev")); 
 app.use(express.json());
 const allowedOrigins = [
-  "http://localhost:5173", // dev
-  //   "https://cytonntaskmanager.vercel.app", // your frontend on vercel
+  "http://localhost:5173",
+  "https://hmssys-eight.vercel.app",
 ];
 
 app.use(
